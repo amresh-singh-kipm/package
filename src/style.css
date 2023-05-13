@@ -1,0 +1,104 @@
+.form-control:focus,
+.form-control:hover {
+  border: 1px solid #78787885 !important;
+}
+
+
+.Auth-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.Auth-form {
+  width: 450px;
+  box-shadow: 0px 6px 18px 0px rgba(16, 5, 54, 0.17);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+}
+
+.Auth-form-content input.form-control {
+  padding: 10px;
+  background: white;
+}
+
+.Auth-form-content input.form-control:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.Auth-form-content {
+  padding: 0px 30px;
+}
+
+.text-center.Auth-form-text span {
+  color: #E21818;
+  cursor: pointer;
+}
+
+.text-center.Auth-form-text span:hover {
+  text-decoration: underline;
+}
+
+.Auth-form-title {
+  text-align: center;
+  font-size: 26px;
+  color: black;
+  font-weight: 800;
+}
+
+.Auth-form-text p {
+  margin-bottom: 30px;
+}
+
+.Auth-form-content label {
+  font-size: 18px;
+  font-weight: 400;
+  color: black;
+  padding: 0px 0px;
+}
+
+.submitbtn .btn {
+  background-color: #E21818;
+  color: white !important;
+  font-weight: 600;
+  padding: 13px 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.submitbtn .btn:hover {
+  background-color: #BD2000;
+}
+
+.submitbtn .btn:focus,
+.submitbtn .btn:active {
+  box-shadow: none;
+  outline: none;
+  border: none;
+}
+
+.form-text p {
+  color: black;
+  margin: 0px;
+  text-align: justify;
+}
+
+.form-text p a {
+  text-decoration: none;
+  color: #2192FF;
+  font-weight: bold;
+}
+
+.form-text p a:hover {
+  color: #0d7be3;
+}
