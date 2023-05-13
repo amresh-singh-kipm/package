@@ -1,0 +1,22 @@
+{
+  "name": "create-form",
+  "version": "1.0.0",
+  "description": "create form using data passed by the user",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amresh-singh-kipm/package.git"
+  },
+  "keywords": [
+    "FORM"
+  ],
+  "author": "Amresh Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amresh-singh-kipm/package/issues"
+  },
+  "homepage": "https://github.com/amresh-singh-kipm/package#readme"
+}
